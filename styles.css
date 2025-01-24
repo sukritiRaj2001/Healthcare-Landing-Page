@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: #007bff;
+  position: fixed;
+  top:0;
+  z-index: 10;
+  width: 100%;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: lightgreen;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: lightgreen;
+}
+
+.hero-section {
+  background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+}
+
+.features-section {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.features-section h2 {
+  color: #007bff;
+  margin-bottom: 30px;
+}
+
+ .services-section {
+  padding: 50px 0;
+}
+
+.services-section h2 {
+  color: #007bff;
+  margin-bottom: 30px;
+} */
+ 
+.testimonials-section {
+  background-color: #e9f7ef;
+  padding: 50px 0;
+}
+
+.testimonials-section h2 {
+  color: #007bff;
+  margin-bottom: 30px;
+} */
+
+.contact-section {
+  background-color: #f8d7da;
+  padding: 50px 0;
+}
+
+.contact-section h2 {
+  color: #dc3545;
+  margin-bottom: 30px;
+}
+/* footer section */
+footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer {
+  background-color: #343a40; /* Dark background for contrast */
+  color: #ffffff; /* White text for readability */
+  padding: 20px 0;
+}
+
+footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #f8f9fa; /* Light gray for headings */
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #d6d8db; /* Light gray for text */
+}
+
+/* Social Media Icons */
+footer a {
+  text-decoration: none; /* Remove underline */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth animation */
+  font-size: 1.5rem; /* Icon size */
+  color: #ffffff; /* Default white color for icons */
+}
+
+footer a:hover {
+  transform: scale(1.2); /* Slight zoom effect on hover */
+}
+
+footer .bi-facebook:hover {
+  color: #3b5998; /* Facebook brand color */
+}
+
+footer .bi-twitter:hover {
+  color: #00acee; /* Twitter brand color */
+}
+
+footer .bi-instagram:hover {
+  color: #E1306C; /* Instagram brand color */
+}
+
+footer .bi-linkedin:hover {
+  color: #0077b5; /* LinkedIn brand color */
+}
+
+/* Centered content and spacing */
+footer .text-center {
+  text-align: center;
+}
+
+footer .py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

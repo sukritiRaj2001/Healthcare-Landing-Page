@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Homepage</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- link bootstrap icon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Healthcare+</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Carousel -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" style="padding-top: 50px;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="hero-section" style="background: url('Images/banner1.png') no-repeat center top / cover; height: 550px;">
+                <div class="container text-center text-white">
+                    <h1>Your Health, Our Priority</h1>
+                    <p>Comprehensive healthcare services tailored for you and your family.</p>
+                </div>
+            </div>
+            </div>
+            <div class="carousel-item">
+                <div class="hero-section" style="background: url('Images/banner2.png') no-repeat center center/cover; height: 550px;">
+                    <div class="container text-center">
+                        <h1>Trusted Healthcare Experts</h1>
+                        <p>Experience quality care from our skilled professionals.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="hero-section" style="background: url('Images/banner3.png') no-repeat center center/cover; height: 550px;">
+                    <div class="container text-center">
+                        <h1>State-of-the-Art Facilities</h1>
+                        <p>Equipped with the latest medical technology.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="hero-section" style="background: url('Images/banner4.png') no-repeat center center/cover; height: 550px;">
+                    <div class="container text-center">
+                        <h1>24/7 Emergency Services</h1>
+                        <p>Always here when you need us the most.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="hero-section" style="background: url('Images/banner5.png') no-repeat center center/cover; height: 550px;">
+                    <div class="container text-center">
+                        <h1>Comprehensive Care Solutions</h1>
+                        <p>Your health, our mission.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Features Section -->
+    <section class="features-section text-center" id="features" style="padding-top: 50px;">
+      <div class="container">
+          <h2 class="mb-4 text-primary">Our Features</h2>
+          <div class="row g-4">
+              <div class="col-md-4">
+                  <div class="card shadow-lg border-primary h-100" data-bs-toggle="tooltip" title="Expert Doctors">
+                      <div class="card-body">
+                          <i class="bi bi-heart-pulse display-4 text-primary mb-3"></i>
+                          <h5 class="card-title">Expert Doctors</h5>
+                          <p class="card-text">Our team of certified doctors provides world-class care.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card shadow-lg border-primary h-100" data-bs-toggle="tooltip" title="Modern Facilities">
+                      <div class="card-body">
+                          <i class="bi bi-hospital display-4 text-primary mb-3"></i>
+                          <h5 class="card-title">Modern Facilities</h5>
+                          <p class="card-text">State-of-the-art infrastructure for all your healthcare needs.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card shadow-lg border-primary h-100" data-bs-toggle="tooltip" title="24/7 Support">
+                      <div class="card-body">
+                          <i class="bi bi-calendar-check display-4 text-primary mb-3"></i>
+                          <h5 class="card-title">24/7 Support</h5>
+                          <p class="card-text">Round-the-clock support for emergencies and consultations.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+  <section class="services-section text-center" id="services" style="padding-top: 50px;">
+    <div class="container">
+        <h2 class="text-primary mb-4">Our Services</h2>
+        <div class="row g-4">
+            <!-- General Consultation Card -->
+            <div class="col-md-4">
+                <div class="card shadow-lg border-success h-100">
+                    <div class="card-body">
+                        <i class="bi bi-clipboard-check display-4 text-success mb-3"></i>
+                        <h5 class="card-title">General Consultation</h5>
+                        <p class="card-text">Affordable and reliable consultations for your health needs.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Surgical Procedures Card -->
+            <div class="col-md-4">
+                <div class="card shadow-lg border-success h-100">
+                    <div class="card-body">
+                        <i class="bi bi-person-heart display-4 text-success mb-3"></i>
+                        <h5 class="card-title">Surgical Procedures</h5>
+                        <p class="card-text">World-class surgical procedures with experienced professionals.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Emergency Care Card -->
+            <div class="col-md-4">
+                <div class="card shadow-lg border-success h-100">
+                    <div class="card-body">
+                        <i class="bi bi-lightning-charge display-4 text-success mb-3"></i>
+                        <h5 class="card-title">Emergency Care</h5>
+                        <p class="card-text">Immediate care available 24/7 for critical situations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="testimonials-section text-center" id="testimonials" style="padding-top: 50px;">
+  <div class="container">
+      <h2 class="text-primary mb-4">What Our Patients Say</h2>
+      <div class="row g-4">
+          <!-- Testimonial 1 -->
+          <div class="col-md-4">
+              <div class="card shadow-lg border-warning h-100">
+                  <div class="card-body">
+                      <i class="bi bi-chat-quote display-4 text-warning mb-3"></i>
+                      <p class="card-text">"Amazing service and friendly staff! Highly recommended."</p>
+                      <h6 class="card-title mt-3">- Kush Mehta</h6>
+                  </div>
+              </div>
+          </div>
+          <!-- Testimonial 2 -->
+          <div class="col-md-4">
+              <div class="card shadow-lg border-warning h-100">
+                  <div class="card-body">
+                      <i class="bi bi-chat-quote display-4 text-warning mb-3"></i>
+                      <p class="card-text">"The doctors here are top-notch and very supportive."</p>
+                      <h6 class="card-title mt-3">- Kavish Sehgal</h6>
+                  </div>
+              </div>
+          </div>
+          <!-- Testimonial 3 -->
+          <div class="col-md-4">
+              <div class="card shadow-lg border-warning h-100">
+                  <div class="card-body">
+                      <i class="bi bi-chat-quote display-4 text-warning mb-3"></i>
+                      <p class="card-text">"Affordable and quality healthcare services for my family."</p>
+                      <h6 class="card-title mt-3">- Illy Johnson</h6>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<section class="contact-section mb-2" id="contact" style="padding-top: 50px;">
+  <div class="container">
+      <h2 class="text-primary mb-3">Contact Us</h2>
+      <div class="row g-4">
+          <div class="col-md-6">
+              <form>
+                  <!-- Name Field -->
+                  <div class="form-floating mb-3">
+                      <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                      <label for="name">Name</label>
+                  </div>
+                  <!-- Email Field -->
+                  <div class="form-floating mb-3">
+                      <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                      <label for="email">Email</label>
+                  </div>
+                  <!-- Phone Field -->
+                  <div class="form-floating mb-3">
+                      <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                      <label for="phone">Phone</label>
+                  </div>
+                  <!-- Message Field -->
+                  <div class="form-floating mb-3">
+                      <textarea class="form-control" id="message" placeholder="Your message" rows="4" style="height: 100px;"></textarea>
+                      <label for="message">Message</label>
+                  </div>
+                  <!-- Submit Button -->
+                  <div class="d-flex justify-content-center">
+                      <button type="submit" class="btn btn-primary w-50">Submit</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+    <footer class="text-center py-4 text-white">
+      <div class="container">
+          <div class="row g-4">
+              <!-- Follow Us Section -->
+              <div class="col-md-6">
+                  <h5>Follow Us</h5>
+                  <div>
+                      <a href="#" class="me-3 text-white"><i class="bi bi-facebook"></i></a>
+                      <a href="#" class="me-3 text-white"><i class="bi bi-twitter"></i></a>
+                      <a href="#" class="me-3 text-white"><i class="bi bi-instagram"></i></a>
+                      <a href="#" class="me-3 text-white"><i class="bi bi-linkedin"></i></a>
+                  </div>
+              </div>
+              <!-- Contact Information -->
+              <div class="col-md-6">
+                  <h5>Contact Information</h5>
+                  <p><i class="bi bi-geo-alt-fill"></i> 123 Healthcare Street, Wellness City, HealthState</p>
+                  <p><i class="bi bi-envelope-fill"></i> info@healthcareplus.com</p>
+                  <p><i class="bi bi-telephone-fill"></i> +91 8709716228</p>
+              </div>
+          </div>
+          <hr class="bg-white">
+          <p class="mb-0">&copy; 2025 Healthcare+. All Rights Reserved.</p>
+      </div>
+  </footer>
+  
+  
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
